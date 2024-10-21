@@ -23,7 +23,7 @@ public class Hexadecimal {
 
     public void inputHexadecimal() {
         Validation v = new Validation();
-        hexadecimal = v.checkHexadecimal("hexadecimal");
+        hexadecimal = v.checkInput("hexadecimal", 16);
     }
 
     public String convertToBinary() {
